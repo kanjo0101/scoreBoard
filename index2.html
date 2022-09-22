@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=
+  ">
+  <title>
+  </title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="container">
+    <div id="home-side-container">
+      <h3 class="heading">HOME</h3>
+      <div id="home-scoreel" class="score-content">
+        0
+      </div>
+      <div id="home-numbers-container">
+        <button
+        onclick="addNum1()"
+        class="add-points">
+        &plusdo; 1
+      </button>
+      <button 
+        onclick="addNum2()"
+        class="add-points">
+        &plusdo; 2
+      </button>
+      <button 
+      onclick="addNum3()"
+      class="add-points">
+      &plusdo; 3
+      </button>
+      </div>
+    </div>
+  
+  <div id="guest-side-container">
+    <h3 class="heading">GUEST</h3>
+      <div 
+        id="guest-scoreel"
+          class="score-content">
+            0
+      </div>
+      <div id="guest-numbers-container">
+        <button 
+          onclick="addGuestNum1()" 
+          class="add-points">
+          &plusdo; 1
+        </button>
+        <button 
+          onclick="addGuestNum2()"
+          class="add-points">
+          &plusdo; 2
+        </button>
+        <button 
+          onclick="addGuestNum3()"
+          class="add-points">
+          &plusdo;3
+        </button>
+  </div>
+  </div>
+  <!-- <button 
+          onclick="resetScores()"
+          class="reset-btn">
+          Reset
+  </button> -->
+  <script src="index.js"></script>
+</body>
+</html>
